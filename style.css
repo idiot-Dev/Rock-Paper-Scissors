@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    background-color: #111827;
+    color: goldenrod;
+}
+
+button {
+    font-size: 80px;
+    background: none;
+    border-style: none;
+    cursor: pointer;
+}
+
+#scores{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+span{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+
+#choices{
+    font-size: 55px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+#result{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    
+}
